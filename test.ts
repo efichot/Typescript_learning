@@ -48,3 +48,8 @@ class Snake extends Animal {
 
 let daveTheSanke = new Snake("Dave");
 daveTheSanke.walk(21);
+
+// all the function parameters are needed in ts
+function greeter2(firstName? : string, lastName: string = "Smith") : void {
+    console.log(`Hello ${firstName} ${lastName}`);
+}
