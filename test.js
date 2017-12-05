@@ -35,3 +35,4 @@ daveTheSanke.walk(21);
 function greeter2(firstName, lastName = "Smith") {
     console.log(`Hello ${firstName} ${lastName}`);
 }
+//# sourceMappingURL=test.js.map
